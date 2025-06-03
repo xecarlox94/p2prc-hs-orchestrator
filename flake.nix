@@ -44,5 +44,11 @@
           '';
         };
       }
-    ));
+    )) //
+    {
+      overlays = {
+        default = p2prc-flake.overlays.default;
+        bindings = p2prc-flake.overlays.bindings;
+      };
+    };
 }
