@@ -50,7 +50,7 @@ extra-doc-files:    CHANGELOG.md
 common warnings
     ghc-options: -Wall
 
-library p2prc-hs-orchestrator
+library
     -- Import common warning flags.
     import:           warnings
 
@@ -63,13 +63,13 @@ library p2prc-hs-orchestrator
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
 
-    exposed-modules:     Main
+    exposed-modules:  MyLib
 
     -- Other library packages from which modules are imported.
     build-depends:    base, p2prc
 
     -- Directories containing source files.
-    hs-source-dirs:   app
+    hs-source-dirs:   src
 
     -- Base language which the package is written in.
     default-language: Haskell2010
