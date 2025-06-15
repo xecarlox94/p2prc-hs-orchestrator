@@ -117,15 +117,16 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1748960525,
-        "narHash": "sha256-bM8CbLP9SD9JgS72OSCd5VsQzzRQ5h2GkeCSLuETYw8=",
-        "owner": "akilan1999",
+        "lastModified": 1750026852,
+        "narHash": "sha256-saY5dPKb3z+8V7dZHqBNy/cNr5a0J4r0FWkJl27v2yA=",
+        "owner": "xecarlox94",
         "repo": "p2p-rendering-computation",
-        "rev": "6a24da74ef8b4ee33860cde752a3d885e2c8f226",
+        "rev": "e0423b8d09efe3c2b3f4908ce127e963356e3008",
         "type": "github"
       },
       "original": {
-        "owner": "akilan1999",
+        "owner": "xecarlox94",
+        "ref": "cli-upgrade",
         "repo": "p2p-rendering-computation",
         "type": "github"
       }

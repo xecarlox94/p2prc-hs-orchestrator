@@ -7,7 +7,7 @@
 
       flake-util.url = "github:numtide/flake-utils";
 
-      p2prc-flake.url = "github:akilan1999/p2p-rendering-computation";
+      p2prc-flake.url = "github:xecarlox94/p2p-rendering-computation?ref=cli-upgrade";
     };
 
   outputs = { nixpkgs, p2prc-flake, flake-utils, ... }:
